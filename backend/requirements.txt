@@ -9,4 +9,3 @@ django-rest-knox
 dj-database-url
 django-environ
 gunicorn
-dotenv

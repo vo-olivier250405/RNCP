@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+canvas {
+  font-family: "Jersey 15", sans-serif;
+  width: 100%;
+  max-height: 100vh;
+  max-width: 100wh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border: 2px solid white;
+}
+
+.font-jersey {
+  font-family: "Jersey 15", sans-serif;
+}
